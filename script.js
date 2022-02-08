@@ -20,9 +20,7 @@ function playRound(playerSelection, computerSelection) {
         alert('You win Scissors cut paper!');
     } else if (playerSelection === 'scissors' && computerSelection === 'rock') {
         alert('You lose Rock smashes Scissors!');
-    } else (playerSelection === '' && computerSelection === '') {
-        alert('You picked the same as the computer!  It\'s a tie');
-    }
+    } else (alert('You picked the same as the computer!  It\'s a tie'));
 } 
 
 //Game play function (Game) Opens a while loop that calls (playRound) dispays round results message. Increments [playerWins OR computerWins].  Loops 4 more times for a total of 5.  Compares [playerWins to computerWins] and dispays a message about the winner of the game.
