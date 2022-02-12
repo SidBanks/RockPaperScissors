@@ -27,7 +27,7 @@ function computerPlay(plays) {
 
 //Round of play function (playRound) playRound accepts 2 parameters [computerSelection, playerSelection] and declares a winner.  The logic is a 7 step if else statement.
 //That increments win counters[playerWins, computerWins, tie].
-function playRound(playerSelection, computerSelection,) {
+function playRound(playerSelection, computerSelection) {
     if (playerSelection == 'rock'  && computerSelection == 'scissors') {
         document.getElementById('message').innerHTML = 
         'You win Rock smashes Scissors!';
