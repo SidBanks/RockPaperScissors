@@ -3,11 +3,50 @@
     <head>
         <title>Rock Paper Scissors!</title>
         <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="style.css">
     </head>
 <body>
-    <button onclick="game(playRound)">Play a game of Rock, Paper, Scissors?</button>
-    <p id="message"></p>
-    <p id="message2"></p>
+   <div class="body">
+   
+    <div class="title">
+    <h1>Rock, Paper, Scissors!</h1>
+    </div>
+
+    <div class="rulesHead">
+    <h2>The Rules</h2>
+    </div>
+
+
+    
+    <div class="rules">
+    <p>
+        Classic "Rock, Paper, Scissors" game.  Rock smashes scissors. Scissors cut paper.
+        Paper covers rock.  You click the button that matches the play you want to choose.  
+        The computer picks it's play at the same time. Winner gets a point for the round, 
+        first to 5 wins the game.  Picking the same as the computer is a tie, "The Cat" wins 
+        those rounds. "The Cat" can also win the game if it gets to 5 rounds first.
+    </p>
+    </div>
+
+    <div class="buttons">
+    <div class="options">
+    <div><button id="rock">Rock</button></div>
+    <div><button id="paper">Paper</button></div>
+    <div><button id="scissors">Scissor</button></div>
+    </div>
+    
+
+    <div class="reset">
+        <button id="reset">Reset</button>
+    </div>
+    </div>
+    
+    <div class="messages">
+    <div><p id="message"></p></div>
+    <div><p id="message2"></p></div>
+    <div><p id="message3"></p></div>
+    </div>
+    </div>
     
     <script src="script.js"></script>
 </body>
